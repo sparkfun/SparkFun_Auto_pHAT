@@ -29933,13 +29933,6 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 <junction x="63.5" y="236.22"/>
 </segment>
 </net>
-<net name="SHLD" class="0">
-<segment>
-<wire x1="27.94" y1="223.52" x2="40.64" y2="223.52" width="0.1524" layer="91"/>
-<label x="40.64" y="223.52" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J20" gate="J1" pin="SHLD"/>
-</segment>
-</net>
 <net name="CC2" class="0">
 <segment>
 <pinref part="J20" gate="J1" pin="CC2"/>

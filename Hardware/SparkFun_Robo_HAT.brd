@@ -34,7 +34,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -13106,39 +13106,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="20.137121875" y1="43.73371875" x2="19.6469" y2="44.223940625" width="0.508" layer="16"/>
 <wire x1="19.6469" y1="44.223940625" x2="18.201640625" y2="44.223940625" width="0.508" layer="16"/>
 <wire x1="18.201640625" y1="44.223940625" x2="18.191478125" y2="44.213778125" width="0.508" layer="16"/>
-</signal>
-<signal name="SHLD">
-<contactref element="J20" pad="SHLD2"/>
-<contactref element="J20" pad="SHLD4"/>
-<contactref element="J20" pad="SHLD1"/>
-<contactref element="J20" pad="SHLD6"/>
-<contactref element="J20" pad="SHLD3"/>
-<contactref element="J20" pad="SHLD7"/>
-<contactref element="J20" pad="SHLD5"/>
-<contactref element="J20" pad="SHLD8"/>
-<polygon width="0.254" layer="1" orphans="yes">
-<vertex x="0.254" y="48.895"/>
-<vertex x="2.64921875" y="48.895"/>
-<vertex x="2.64921875" y="38.354"/>
-<vertex x="0.254" y="38.354"/>
-</polygon>
-<polygon width="0.254" layer="16" orphans="yes">
-<vertex x="0.254" y="48.895"/>
-<vertex x="2.649221875" y="48.895"/>
-<vertex x="2.649221875" y="38.354"/>
-<vertex x="0.254" y="38.354"/>
-</polygon>
-<wire x1="5.435" y1="47.881" x2="5.1694" y2="47.881" width="0.2032" layer="1"/>
-<wire x1="5.435" y1="39.241" x2="5.1694" y2="39.241" width="0.2032" layer="1"/>
-<wire x1="1.255" y1="39.241" x2="1.2856" y2="39.241" width="0.2032" layer="1"/>
-<wire x1="1.255" y1="47.881" x2="1.2856" y2="47.881" width="0.2032" layer="1"/>
-<wire x1="5.435" y1="47.881" x2="5.435" y2="47.881" width="0" layer="19" extent="1-16"/>
-<wire x1="1.2856" y1="47.881" x2="5.1694" y2="47.881" width="0" layer="19" extent="1-1"/>
-<wire x1="1.255" y1="47.881" x2="1.255" y2="47.881" width="0" layer="19" extent="1-16"/>
-<wire x1="5.435" y1="39.241" x2="5.435" y2="47.881" width="0" layer="19" extent="16-16"/>
-<wire x1="5.435" y1="39.241" x2="5.435" y2="39.241" width="0" layer="19" extent="1-16"/>
-<wire x1="1.2856" y1="39.241" x2="5.1694" y2="39.241" width="0" layer="19" extent="1-1"/>
-<wire x1="1.255" y1="39.241" x2="1.255" y2="39.241" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="CC2">
 <contactref element="J20" pad="B5"/>

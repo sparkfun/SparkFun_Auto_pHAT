@@ -9,23 +9,23 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -40,13 +40,13 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="13" fill="7" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -12410,7 +12410,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.828040625" y="5.4076625" smashed="yes"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="59.776359375" y="55.138321875" smashed="yes"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="45.04435625" y="30.8203625" smashed="yes" rot="MR0"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="32.02939375" y="45.813984375" smashed="yes" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="4.5085" y="11.5824" smashed="yes"/>
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.828040625" y="5.4076625" smashed="yes" rot="MR0"/>
 <element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="59.776359375" y="55.138321875" smashed="yes" rot="MR0"/>
@@ -12453,7 +12453,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="48.259996875" y="36.807140625" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="48.259996875" y="39.093140625" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
-<element name="U$2" library="Qwiic RFID - IDXXLA" package="I_SUPER2_C-()-03" value="" x="46.720759375" y="39.65701875" smashed="yes" rot="MR180"/>
+<element name="U$2" library="Qwiic RFID - IDXXLA" package="I_SUPER2_C-()-03" value="" x="49.684940625" y="39.588440625" smashed="yes" rot="MR0"/>
 <element name="U$32" library="buzzard_labels (3)" package="ISO1" value="" x="6.931659375" y="47.244" smashed="yes"/>
 <element name="JP4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" value="PI ISO" x="10.581640625" y="47.769778125" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.438640625" y="47.769778125" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -12949,15 +12949,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$39" library="buzzard_labels (6)" package="IMU_ADR9" value="" x="31.75761875" y="37.4396" smashed="yes" rot="MR0"/>
 <element name="U$51" library="buzzard_labels (7)" package="MTR_ADR0" value="" x="31.42488125" y="26.5684" smashed="yes" rot="MR0"/>
 <element name="U$52" library="buzzard_labels (1)" package="EXT_PWR_INPUTS3" value="" x="55.01131875" y="48.8442" smashed="yes" rot="MR270"/>
-<element name="U$53" library="buzzard_labels (6)" package="5V3" value="" x="62.78118125" y="48.270159375" smashed="yes" rot="MR0"/>
-<element name="U$54" library="buzzard_labels (6)" package="MTR4" value="" x="62.78118125" y="43.113959375" smashed="yes" rot="MR0"/>
-<element name="U$55" library="buzzard_labels (6)" package="SERVO5" value="" x="62.913259375" y="38.03141875" smashed="yes" rot="MR0"/>
+<element name="U$53" library="buzzard_labels (6)" package="5V3" value="" x="63.21298125" y="48.247296875" smashed="yes" rot="MR0"/>
+<element name="U$54" library="buzzard_labels (6)" package="MTR4" value="" x="63.2587" y="43.113959375" smashed="yes" rot="MR0"/>
+<element name="U$55" library="buzzard_labels (6)" package="SERVO5" value="" x="63.162178125" y="38.003478125" smashed="yes" rot="MR0"/>
 <element name="U$56" library="buzzard_labels (6)" package="#ENC_RST6" value="" x="63.439040625" y="30.490159375" smashed="yes" rot="MR0"/>
 <element name="U$57" library="buzzard_labels (6)" package="#MTR_RST7" value="" x="63.535559375" y="27.810459375" smashed="yes" rot="MR0"/>
 <element name="U$58" library="buzzard_labels (6)" package="#FSYNC8" value="" x="63.433959375" y="25.397459375" smashed="yes" rot="MR0"/>
-<element name="U$59" library="buzzard_labels" package="GND3" value="" x="62.875159375" y="45.697140625" smashed="yes" rot="MR0"/>
-<element name="U$60" library="buzzard_labels" package="GND3" value="" x="62.849759375" y="40.54601875" smashed="yes" rot="MR0"/>
-<element name="U$61" library="buzzard_labels" package="GND3" value="" x="62.900559375" y="35.49141875" smashed="yes" rot="MR0"/>
+<element name="U$59" library="buzzard_labels" package="GND3" value="" x="63.235840625" y="45.697140625" smashed="yes" rot="MR0"/>
+<element name="U$60" library="buzzard_labels" package="GND3" value="" x="63.197740625" y="40.5638" smashed="yes" rot="MR0"/>
+<element name="U$61" library="buzzard_labels" package="GND3" value="" x="63.13931875" y="35.514278125" smashed="yes" rot="MR0"/>
 <element name="U$62" library="buzzard_labels (8)" package="#ENC_INT0" value="" x="63.433959375" y="33.017459375" smashed="yes" rot="MR0"/>
 <element name="U$63" library="buzzard_labels (2)" package="#16" value="" x="18.79091875" y="1.397" smashed="yes" rot="MR0"/>
 <element name="U$64" library="buzzard_labels (2)" package="#16" value="" x="34.028378125" y="1.437640625" smashed="yes" rot="MR0"/>
@@ -12987,6 +12987,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="39.9288" y="21.5138" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="U$83" library="buzzard_labels (9)" package="AUTO_PHAT0" value="" x="19.05" y="39.37" smashed="yes"/>
+<element name="U$84" library="buzzard_labels (9)" package="AUTO_PHAT0" value="" x="44.074078125" y="42.72788125" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="N$3">

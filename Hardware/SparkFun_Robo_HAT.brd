@@ -172,7 +172,7 @@
 </polygon>
 <rectangle x1="7.40918125" y1="47.767240625" x2="7.79525625" y2="48.894996875" layer="21"/>
 <rectangle x1="9.21511875" y1="47.75708125" x2="9.65961875" y2="48.91024375" layer="21"/>
-<text x="53.594" y="0.127" size="1.016" layer="16" font="vector" ratio="20" rot="SMR0">v01</text>
+<text x="53.594" y="0.127" size="1.016" layer="16" font="vector" ratio="20" rot="SMR0">v10</text>
 <text x="45.669196875" y="6.33221875" size="1.27" layer="20" font="vector" ratio="12" rot="R90">ROUTE OUT</text>
 <circle x="20.810221875" y="28.348940625" radius="0.3048" width="0" layer="21"/>
 <wire x1="20.048221875" y1="28.348940625" x2="20.810221875" y2="27.586940625" width="0.254" layer="21" curve="-270"/>

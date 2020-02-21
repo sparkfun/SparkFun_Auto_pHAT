@@ -29328,7 +29328,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="349.758" y="11.43" size="2.54" layer="94" font="vector">Pete Lewis</text>
-<text x="421.64" y="6.604" size="2.54" layer="94" font="vector" ratio="12">v01</text>
+<text x="421.64" y="6.604" size="2.54" layer="94" font="vector" ratio="12">v10</text>
 <wire x1="139.7" y1="152.4" x2="139.7" y2="91.44" width="0.3048" layer="97" style="longdash"/>
 <wire x1="139.7" y1="91.44" x2="139.7" y2="0" width="0.3048" layer="97" style="longdash"/>
 <wire x1="139.7" y1="152.4" x2="233.68" y2="152.4" width="0.3048" layer="97" style="longdash"/>
@@ -30331,7 +30331,7 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 <text x="193.294" y="179.324" size="3.81" layer="94" font="vector">Config Jumpers</text>
 <text x="166.624" y="11.43" size="2.54" layer="94" font="vector">Pete Lewis</text>
 <text x="5.08" y="177.8" size="3.81" layer="94" font="vector">Motor Driver IC - PSoC I/O</text>
-<text x="237.49" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="237.49" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="123.698" y="18.288" size="1.27" layer="97" font="vector" rot="MR180">P3.2 swd_io[0]
 P3.3 swd_clk[0]
 </text>
@@ -31063,7 +31063,7 @@ to dissconnect I2C pullups</text>
 <text x="259.08" y="264.16" size="5.08" layer="94" font="vector">PWM Control (servos)</text>
 <text x="261.874" y="11.176" size="1.778" layer="97" font="vector">*For frame synchronization support
 (3.3V Logic level)</text>
-<text x="421.386" y="7.366" size="2.54" layer="94" font="vector">v01</text>
+<text x="421.386" y="7.366" size="2.54" layer="94" font="vector">v10</text>
 <text x="349.758" y="11.43" size="2.54" layer="94" font="vector">Pete Lewis</text>
 </plain>
 <instances>

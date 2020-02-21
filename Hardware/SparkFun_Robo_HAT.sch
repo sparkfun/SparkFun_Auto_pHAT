@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,19 +54,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="13" fill="7" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="13" fill="7" visible="no" active="no"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -29320,6 +29320,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FD6" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD7" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD8" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="1.8V" device=""/>
+<part name="R16" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
+<part name="SUPPLY27" library="SparkFun-PowerSymbols" deviceset="1.8V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -31039,7 +31042,7 @@ indicates the jumper is bridged.</text>
 <plain>
 <text x="7.62" y="86.36" size="5.08" layer="94" font="vector">IMU (ICM-20948)</text>
 <text x="170.18" y="83.82" size="5.08" layer="94" font="vector">I2C Level Shifting (IMU)</text>
-<text x="45.72" y="7.62" size="1.27" layer="97" font="vector">ADR   -&gt; I2C Address
+<text x="119.38" y="17.78" size="1.27" layer="97" font="vector">ADR   -&gt; I2C Address
 -------------------
 open  -&gt; 0x69
 closed -&gt; 0x68</text>
@@ -31064,9 +31067,9 @@ to dissconnect I2C pullups</text>
 <text x="349.758" y="11.43" size="2.54" layer="94" font="vector">Pete Lewis</text>
 </plain>
 <instances>
-<instance part="TP9" gate="G$1" x="137.16" y="50.8" smashed="yes">
-<attribute name="NAME" x="140.97" y="50.038" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="141.224" y="47.498" size="1.778" layer="96" font="vector"/>
+<instance part="TP9" gate="G$1" x="91.44" y="30.48" smashed="yes">
+<attribute name="NAME" x="95.25" y="29.718" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="95.504" y="27.178" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="U7" gate="G$1" x="60.96" y="60.96" smashed="yes">
 <attribute name="NAME" x="48.26" y="71.374" size="1.778" layer="95" font="vector"/>
@@ -31099,26 +31102,26 @@ to dissconnect I2C pullups</text>
 <instance part="SUPPLY38" gate="G$1" x="12.7" y="71.12" smashed="yes">
 <attribute name="VALUE" x="12.7" y="73.914" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U8" gate="G$1" x="124.46" y="45.72" smashed="yes">
-<attribute name="NAME" x="116.84" y="53.594" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="116.84" y="37.846" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="U8" gate="G$1" x="78.74" y="25.4" smashed="yes">
+<attribute name="NAME" x="71.12" y="33.274" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="71.12" y="17.526" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="C15" gate="G$1" x="101.6" y="43.18" smashed="yes">
-<attribute name="NAME" x="103.124" y="46.101" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="103.124" y="41.021" size="1.778" layer="96" font="vector"/>
+<instance part="C15" gate="G$1" x="55.88" y="22.86" smashed="yes">
+<attribute name="NAME" x="57.404" y="25.781" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="57.404" y="20.701" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND38" gate="1" x="101.6" y="27.94" smashed="yes">
-<attribute name="VALUE" x="101.6" y="27.686" size="1.778" layer="96" align="top-center"/>
+<instance part="GND38" gate="1" x="55.88" y="7.62" smashed="yes">
+<attribute name="VALUE" x="55.88" y="7.366" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY40" gate="G$1" x="134.62" y="55.88" smashed="yes">
-<attribute name="VALUE" x="134.62" y="58.674" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY40" gate="G$1" x="88.9" y="35.56" smashed="yes">
+<attribute name="VALUE" x="88.9" y="38.354" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="JP15" gate="G$1" x="55.88" y="30.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="53.34" y="27.94" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="58.42" y="27.94" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="JP15" gate="G$1" x="129.54" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="127" y="38.1" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="132.08" y="38.1" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="GND43" gate="1" x="55.88" y="20.32" smashed="yes">
-<attribute name="VALUE" x="55.88" y="20.066" size="1.778" layer="96" align="top-center"/>
+<instance part="GND43" gate="1" x="129.54" y="30.48" smashed="yes">
+<attribute name="VALUE" x="129.54" y="30.226" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="Q23" gate="NMOS" x="269.24" y="55.88" smashed="yes" rot="R270">
 <attribute name="NAME" x="269.24" y="50.8" size="1.778" layer="95" font="vector" rot="R270"/>
@@ -31176,8 +31179,8 @@ to dissconnect I2C pullups</text>
 <instance part="SUPPLY56" gate="G$1" x="363.22" y="71.12" smashed="yes">
 <attribute name="VALUE" x="363.22" y="73.914" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="3.3V1" gate="G$1" x="101.6" y="55.88" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="101.6" y="58.674" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
+<instance part="3.3V1" gate="G$1" x="55.88" y="35.56" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="55.88" y="38.354" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
 <instance part="3.3V6" gate="G$1" x="332.74" y="71.12" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="332.74" y="73.914" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
@@ -31372,6 +31375,16 @@ to dissconnect I2C pullups</text>
 <instance part="SUPPLY25" gate="G$1" x="314.96" y="200.66" smashed="yes">
 <attribute name="VALUE" x="314.96" y="203.454" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
+<instance part="SUPPLY4" gate="G$1" x="78.74" y="73.66" smashed="yes">
+<attribute name="VALUE" x="78.74" y="76.454" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="R16" gate="G$1" x="129.54" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="128.016" y="55.88" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="131.064" y="55.88" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SUPPLY27" gate="G$1" x="129.54" y="63.5" smashed="yes">
+<attribute name="VALUE" x="129.54" y="66.294" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -31400,19 +31413,19 @@ to dissconnect I2C pullups</text>
 </segment>
 <segment>
 <pinref part="U8" gate="G$1" pin="GND"/>
-<wire x1="114.3" y1="40.64" x2="111.76" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="40.64" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="20.32" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="20.32" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="40.64" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="38.1" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="20.32" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="17.78" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="GND38" gate="1" pin="GND"/>
-<wire x1="101.6" y1="30.48" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
-<junction x="101.6" y="38.1"/>
+<wire x1="55.88" y1="10.16" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
+<junction x="55.88" y="17.78"/>
 </segment>
 <segment>
 <pinref part="JP15" gate="G$1" pin="1"/>
 <pinref part="GND43" gate="1" pin="GND"/>
-<wire x1="55.88" y1="25.4" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="35.56" x2="129.54" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C16" gate="G$1" pin="2"/>
@@ -31521,9 +31534,12 @@ to dissconnect I2C pullups</text>
 </segment>
 <segment>
 <pinref part="JP15" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="38.1" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="38.1" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
-<label x="58.42" y="38.1" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="129.54" y1="48.26" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="48.26" x2="127" y2="48.26" width="0.1524" layer="91"/>
+<label x="127" y="48.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="50.8" x2="129.54" y2="48.26" width="0.1524" layer="91"/>
+<junction x="129.54" y="48.26"/>
 </segment>
 </net>
 <net name="SDA_1.8V" class="0">
@@ -31579,11 +31595,11 @@ to dissconnect I2C pullups</text>
 </segment>
 <segment>
 <pinref part="U8" gate="G$1" pin="OUT"/>
-<wire x1="132.08" y1="50.8" x2="134.62" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="50.8" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="30.48" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="30.48" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY40" gate="G$1" pin="1.8V"/>
-<wire x1="134.62" y1="50.8" x2="137.16" y2="50.8" width="0.1524" layer="91"/>
-<junction x="134.62" y="50.8"/>
+<wire x1="88.9" y1="30.48" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
+<junction x="88.9" y="30.48"/>
 <pinref part="TP9" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -31625,6 +31641,17 @@ to dissconnect I2C pullups</text>
 <pinref part="Q28" gate="NMOS" pin="G"/>
 <wire x1="370.84" y1="60.96" x2="370.84" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="SUPPLY56" gate="G$1" pin="1.8V"/>
+</segment>
+<segment>
+<pinref part="SUPPLY4" gate="G$1" pin="1.8V"/>
+<pinref part="U7" gate="G$1" pin="!CS"/>
+<wire x1="76.2" y1="63.5" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="63.5" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="63.5" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="SUPPLY27" gate="G$1" pin="1.8V"/>
 </segment>
 </net>
 <net name="SDA_3.3V" class="0">
@@ -31710,16 +31737,16 @@ to dissconnect I2C pullups</text>
 <segment>
 <pinref part="3.3V1" gate="G$1" pin="VIN"/>
 <pinref part="U8" gate="G$1" pin="EN"/>
-<wire x1="114.3" y1="45.72" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="45.72" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="50.8" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="25.4" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="25.4" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="30.48" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="30.48" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="48.26" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
-<junction x="101.6" y="50.8"/>
+<wire x1="55.88" y1="27.94" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
+<junction x="55.88" y="30.48"/>
 <pinref part="U8" gate="G$1" pin="IN"/>
-<wire x1="114.3" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
-<junction x="111.76" y="50.8"/>
+<wire x1="68.58" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
+<junction x="66.04" y="30.48"/>
 </segment>
 <segment>
 <pinref part="3.3V6" gate="G$1" pin="VIN"/>

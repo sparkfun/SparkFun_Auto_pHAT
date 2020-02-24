@@ -34089,7 +34089,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP7" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value=""/>
 <part name="TP8" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value=""/>
 <part name="U6" library="SparkFun-IC-Microcontroller" deviceset="PSOC4_4200_40QFN" device="" value="CY8C4245LQI-483"/>
-<part name="TP9" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3" value=""/>
+<part name="TP9" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>
 <part name="U7" library="SparkFun-Sensors" deviceset="ICM-20948" device="" value="9DoF IMU"/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
@@ -34206,6 +34206,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="1.8V" device=""/>
 <part name="R16" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
 <part name="SUPPLY27" library="SparkFun-PowerSymbols" deviceset="1.8V" device=""/>
+<part name="TP10" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value=""/>
+<part name="TP11" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value=""/>
+<part name="TP12" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value=""/>
+<part name="TP13" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value=""/>
+<part name="TP14" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value=""/>
+<part name="TP15" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value=""/>
+<part name="TP16" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value=""/>
+<part name="TP17" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value=""/>
+<part name="TP18" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -34275,7 +34284,7 @@ Be careful, USB-C is powerful.</text>
 <wire x1="121.92" y1="55.88" x2="121.92" y2="12.7" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="121.92" y1="12.7" x2="68.58" y2="12.7" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="68.58" y1="12.7" x2="68.58" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
-<text x="10.922" y="133.35" size="2.54" layer="97" font="vector" ratio="12">11V MAX</text>
+<text x="10.922" y="133.35" size="2.54" layer="97" font="vector" ratio="12">9V MAX</text>
 <text x="11.684" y="158.242" size="2.54" layer="97" font="vector" ratio="12">6V MAX</text>
 <wire x1="139.7" y1="124.46" x2="0" y2="124.46" width="0.3048" layer="97" style="longdash"/>
 <text x="10.16" y="183.388" size="2.54" layer="97" font="vector" ratio="12">5V ONLY</text>
@@ -34287,6 +34296,7 @@ ICM-20948 based on a design by Owen Lyke
 ATTINY84 Encoder based on a design by Nathan Seidle</text>
 <wire x1="139.7" y1="91.44" x2="330.2" y2="91.44" width="0.3048" layer="97" style="longdash"/>
 <wire x1="233.68" y1="91.44" x2="233.68" y2="152.4" width="0.3048" layer="97" style="longdash"/>
+<text x="10.668" y="129.54" size="1.778" layer="97" font="vector" ratio="10">11V MAX (with heat sink)</text>
 </plain>
 <instances>
 <instance part="C3" gate="G$1" x="71.12" y="154.94" smashed="yes">
@@ -34382,29 +34392,29 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 <instance part="3.3V5" gate="G$1" x="195.58" y="231.14" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="195.58" y="233.934" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="TP0" gate="G$1" x="190.5" y="121.92" smashed="yes">
-<attribute name="NAME" x="194.056" y="121.158" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="187.96" y="119.38" size="1.778" layer="96" font="vector"/>
+<instance part="TP0" gate="G$1" x="170.18" y="124.46" smashed="yes">
+<attribute name="NAME" x="173.736" y="123.698" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="167.64" y="121.92" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="TP1" gate="G$1" x="190.5" y="119.38" smashed="yes">
-<attribute name="NAME" x="194.056" y="118.364" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="187.96" y="116.84" size="1.778" layer="96" font="vector"/>
+<instance part="TP1" gate="G$1" x="170.18" y="121.92" smashed="yes">
+<attribute name="NAME" x="173.736" y="120.904" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="167.64" y="119.38" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="TP2" gate="G$1" x="190.5" y="116.84" smashed="yes">
-<attribute name="NAME" x="194.056" y="115.824" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="187.96" y="114.3" size="1.778" layer="96" font="vector"/>
+<instance part="TP2" gate="G$1" x="170.18" y="119.38" smashed="yes">
+<attribute name="NAME" x="173.736" y="118.364" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="167.64" y="116.84" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="TP3" gate="G$1" x="190.5" y="114.3" smashed="yes">
-<attribute name="NAME" x="194.056" y="113.284" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="187.96" y="111.76" size="1.778" layer="96" font="vector"/>
+<instance part="TP3" gate="G$1" x="170.18" y="116.84" smashed="yes">
+<attribute name="NAME" x="173.736" y="115.824" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="167.64" y="114.3" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="TP4" gate="G$1" x="190.5" y="111.76" smashed="yes">
-<attribute name="NAME" x="194.056" y="110.744" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="187.96" y="109.22" size="1.778" layer="96" font="vector"/>
+<instance part="TP4" gate="G$1" x="170.18" y="114.3" smashed="yes">
+<attribute name="NAME" x="173.736" y="113.284" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="167.64" y="111.76" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="TP5" gate="G$1" x="190.5" y="109.22" smashed="yes">
-<attribute name="NAME" x="194.056" y="108.204" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="187.96" y="106.68" size="1.778" layer="96" font="vector"/>
+<instance part="TP5" gate="G$1" x="170.18" y="111.76" smashed="yes">
+<attribute name="NAME" x="173.736" y="110.744" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="167.64" y="109.22" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="363.22" y="175.26" smashed="yes">
 <attribute name="VALUE" x="363.22" y="178.054" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -34505,12 +34515,12 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 <instance part="SUPPLY15" gate="G$1" x="106.68" y="165.1" smashed="yes">
 <attribute name="VALUE" x="106.68" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="5V5" gate="G$1" x="187.96" y="127" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="187.96" y="129.794" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
+<instance part="5V5" gate="G$1" x="167.64" y="129.54" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="167.64" y="132.334" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="TP6" gate="G$1" x="190.5" y="124.46" smashed="yes">
-<attribute name="NAME" x="194.056" y="123.698" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="187.96" y="121.92" size="1.778" layer="96" font="vector"/>
+<instance part="TP6" gate="G$1" x="170.18" y="127" smashed="yes">
+<attribute name="NAME" x="173.736" y="126.238" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="167.64" y="124.46" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="5V2" gate="G$1" x="200.66" y="233.68" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="200.66" y="236.474" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
@@ -34612,6 +34622,42 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 <instance part="FD6" gate="G$1" x="421.64" y="27.94" smashed="yes"/>
 <instance part="FD7" gate="G$1" x="424.18" y="30.48" smashed="yes"/>
 <instance part="FD8" gate="G$1" x="424.18" y="27.94" smashed="yes"/>
+<instance part="TP10" gate="G$1" x="170.18" y="109.22" smashed="yes">
+<attribute name="NAME" x="173.736" y="108.204" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="167.64" y="106.68" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="TP11" gate="G$1" x="203.2" y="127" smashed="yes">
+<attribute name="NAME" x="206.756" y="126.238" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="200.66" y="124.46" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="TP12" gate="G$1" x="203.2" y="124.46" smashed="yes">
+<attribute name="NAME" x="206.756" y="123.698" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="200.66" y="121.92" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="TP13" gate="G$1" x="203.2" y="121.92" smashed="yes">
+<attribute name="NAME" x="206.756" y="121.158" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="200.66" y="119.38" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="TP14" gate="G$1" x="203.2" y="119.38" smashed="yes">
+<attribute name="NAME" x="206.756" y="118.618" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="200.66" y="116.84" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="TP15" gate="G$1" x="203.2" y="116.84" smashed="yes">
+<attribute name="NAME" x="206.756" y="116.078" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="200.66" y="114.3" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="TP16" gate="G$1" x="203.2" y="114.3" smashed="yes">
+<attribute name="NAME" x="206.756" y="113.538" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="200.66" y="111.76" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="TP17" gate="G$1" x="203.2" y="111.76" smashed="yes">
+<attribute name="NAME" x="206.756" y="110.998" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="200.66" y="109.22" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="TP18" gate="G$1" x="203.2" y="109.22" smashed="yes">
+<attribute name="NAME" x="206.756" y="108.458" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="200.66" y="106.68" size="1.778" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -34762,8 +34808,8 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 </segment>
 <segment>
 <pinref part="TP4" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="111.76" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
-<label x="187.96" y="111.76" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="170.18" y1="114.3" x2="167.64" y2="114.3" width="0.1524" layer="91"/>
+<label x="167.64" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SDA_3.3V" class="0">
@@ -34779,8 +34825,8 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 </segment>
 <segment>
 <pinref part="TP5" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="109.22" x2="187.96" y2="109.22" width="0.1524" layer="91"/>
-<label x="187.96" y="109.22" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="170.18" y1="111.76" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
+<label x="167.64" y="111.76" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CH3" class="0">
@@ -34791,8 +34837,8 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 </segment>
 <segment>
 <pinref part="TP3" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="114.3" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
-<label x="187.96" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="170.18" y1="116.84" x2="167.64" y2="116.84" width="0.1524" layer="91"/>
+<label x="167.64" y="116.84" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CH2" class="0">
@@ -34803,8 +34849,8 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 </segment>
 <segment>
 <pinref part="TP2" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="116.84" x2="187.96" y2="116.84" width="0.1524" layer="91"/>
-<label x="187.96" y="116.84" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="170.18" y1="119.38" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
+<label x="167.64" y="119.38" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CH1" class="0">
@@ -34815,8 +34861,8 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 </segment>
 <segment>
 <pinref part="TP1" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="119.38" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
-<label x="187.96" y="119.38" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="170.18" y1="121.92" x2="167.64" y2="121.92" width="0.1524" layer="91"/>
+<label x="167.64" y="121.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CH0" class="0">
@@ -34827,8 +34873,8 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 </segment>
 <segment>
 <pinref part="TP0" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="121.92" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
-<label x="187.96" y="121.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="170.18" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
+<label x="167.64" y="124.46" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SERVO" class="0">
@@ -34890,9 +34936,9 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 </segment>
 <segment>
 <pinref part="5V5" gate="G$1" pin="VIN"/>
-<wire x1="187.96" y1="127" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="129.54" x2="167.64" y2="127" width="0.1524" layer="91"/>
 <pinref part="TP6" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="127" x2="167.64" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="5V2" gate="G$1" pin="VIN"/>
@@ -35124,12 +35170,22 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 <wire x1="93.98" y1="25.4" x2="86.36" y2="25.4" width="0.1524" layer="91"/>
 <label x="86.36" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="203.2" y1="109.22" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
+<label x="200.66" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP18" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="ENC1A_RAW" class="0">
 <segment>
 <pinref part="J12" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="33.02" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
 <label x="86.36" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="203.2" y1="111.76" x2="200.66" y2="111.76" width="0.1524" layer="91"/>
+<label x="200.66" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP17" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="AOUT1" class="0">
@@ -35138,12 +35194,22 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 <wire x1="93.98" y1="43.18" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
 <label x="86.36" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="203.2" y1="114.3" x2="200.66" y2="114.3" width="0.1524" layer="91"/>
+<label x="200.66" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP16" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="AOUT2" class="0">
 <segment>
 <pinref part="J13" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="45.72" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
 <label x="86.36" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="203.2" y1="116.84" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
+<label x="200.66" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP15" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ENC2B_RAW" class="0">
@@ -35152,12 +35218,22 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 <wire x1="93.98" y1="83.82" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
 <label x="86.36" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="203.2" y1="127" x2="200.66" y2="127" width="0.1524" layer="91"/>
+<label x="200.66" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP11" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="ENC2A_RAW" class="0">
 <segment>
 <pinref part="J15" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="76.2" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
 <label x="86.36" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="203.2" y1="124.46" x2="200.66" y2="124.46" width="0.1524" layer="91"/>
+<label x="200.66" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="BOUT1" class="0">
@@ -35166,12 +35242,22 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 <wire x1="93.98" y1="63.5" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
 <label x="86.36" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="203.2" y1="119.38" x2="200.66" y2="119.38" width="0.1524" layer="91"/>
+<label x="200.66" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP14" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="BOUT2" class="0">
 <segment>
 <pinref part="J14" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
 <label x="86.36" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="203.2" y1="121.92" x2="200.66" y2="121.92" width="0.1524" layer="91"/>
+<label x="200.66" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP13" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VIN-MTR" class="0">
@@ -35372,6 +35458,11 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 <wire x1="246.38" y1="205.74" x2="248.92" y2="205.74" width="0.1524" layer="91"/>
 <label x="248.92" y="205.74" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="CE1"/>
+</segment>
+<segment>
+<pinref part="TP10" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="109.22" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
+<label x="167.64" y="109.22" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -36095,7 +36186,7 @@ indicates the jumper is bridged.</text>
 <text x="170.18" y="83.82" size="5.08" layer="94" font="vector">I2C Level Shifting (IMU)</text>
 <text x="119.38" y="17.78" size="1.27" layer="97" font="vector">ADR   -&gt; I2C Address
 -------------------
-open  -&gt; 0x69
+open  -&gt; 0x69 (default)
 closed -&gt; 0x68</text>
 <wire x1="0" y1="96.52" x2="154.94" y2="96.52" width="0.2032" layer="97" style="longdash"/>
 <wire x1="154.94" y1="96.52" x2="431.8" y2="96.52" width="0.2032" layer="97" style="longdash"/>
@@ -36168,7 +36259,6 @@ to dissconnect I2C pullups</text>
 <attribute name="VALUE" x="88.9" y="38.354" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="JP15" gate="G$1" x="129.54" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="127" y="38.1" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="132.08" y="38.1" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND43" gate="1" x="129.54" y="30.48" smashed="yes">

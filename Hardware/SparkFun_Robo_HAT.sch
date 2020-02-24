@@ -34215,6 +34215,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP16" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value=""/>
 <part name="TP17" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value=""/>
 <part name="TP18" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value=""/>
+<part name="3.3V9" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="3.3V"/>
+<part name="TP19" library="SparkFun-Connectors" deviceset="TEST-POINT" device="TP_15TH_THRU" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -34658,6 +34660,13 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 <attribute name="NAME" x="206.756" y="108.458" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="200.66" y="106.68" size="1.778" layer="96" font="vector"/>
 </instance>
+<instance part="3.3V9" gate="G$1" x="200.66" y="132.08" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="200.66" y="134.874" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="TP19" gate="G$1" x="203.2" y="129.54" smashed="yes">
+<attribute name="NAME" x="206.756" y="128.778" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="200.66" y="127" size="1.778" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -35011,6 +35020,12 @@ ATTINY84 Encoder based on a design by Nathan Seidle</text>
 <wire x1="88.9" y1="73.66" x2="88.9" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="73.66" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
 <junction x="88.9" y="73.66"/>
+</segment>
+<segment>
+<pinref part="3.3V9" gate="G$1" pin="VIN"/>
+<pinref part="TP19" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="129.54" x2="200.66" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="129.54" x2="200.66" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">

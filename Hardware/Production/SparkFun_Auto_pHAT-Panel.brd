@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.02" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1319,6 +1319,12 @@
 <wire x1="146.585940625" y1="58.607959375" x2="145.671540625" y2="58.607959375" width="0.3048" layer="22"/>
 <wire x1="176.989740625" y1="58.785759375" x2="176.075340625" y2="58.785759375" width="0.3048" layer="22"/>
 <text x="134.673340625" y="86.057740625" size="1.778" layer="20" ratio="15" rot="R90" align="center">Route Out</text>
+<wire x1="-9.398" y1="-0.254" x2="216.99728125" y2="-0.254" width="0.381" layer="46"/>
+<text x="224.61728125" y="-0.254" size="1.778" layer="46" ratio="15" align="center">v-score</text>
+<wire x1="-9.398" y1="57.287159375" x2="216.99728125" y2="57.287159375" width="0.381" layer="46"/>
+<text x="224.61728125" y="57.287159375" size="1.778" layer="46" ratio="15" align="center">v-score</text>
+<wire x1="-9.398" y1="114.82831875" x2="216.99728125" y2="114.82831875" width="0.381" layer="46"/>
+<text x="224.61728125" y="114.82831875" size="1.778" layer="46" ratio="15" align="center">v-score</text>
 <wire x1="-9.398" y1="-0.508" x2="208.10728125" y2="-0.508" width="0.254" layer="20"/>
 <wire x1="208.10728125" y1="-0.508" x2="208.10728125" y2="-6.858" width="0.254" layer="20"/>
 <wire x1="208.10728125" y1="-6.858" x2="-9.398" y2="-6.858" width="0.254" layer="20"/>
@@ -1335,6 +1341,8 @@
 <wire x1="-3.048" y1="114.57431875" x2="-3.048" y2="0" width="0.254" layer="20"/>
 <wire x1="-3.048" y1="0" x2="-9.398" y2="0" width="0.254" layer="20"/>
 <wire x1="-9.398" y1="0" x2="-9.398" y2="114.57431875" width="0.254" layer="20"/>
+<wire x1="201.50328125" y1="-6.7818" x2="201.50328125" y2="129.74828125" width="0.381" layer="46"/>
+<text x="201.50328125" y="136.09828125" size="1.778" layer="46" ratio="15" rot="R90" align="center">v-score</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">

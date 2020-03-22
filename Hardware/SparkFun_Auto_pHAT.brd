@@ -18,7 +18,7 @@
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -14200,6 +14200,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="J2" library="SparkFun-Connectors" package="RASPBERRY_PI_HAT_40_PIN_SMD_STACKABLE_NOHOLES" value="RASPBERRYPI-40-PIN-GPIO_SMD_STACKABLE_NOHOLES" x="8.372" y="51.216" smashed="yes">
 <attribute name="NAME" x="7.102" y="55.28" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="PROD_ID" value="CONN-14914" x="8.372" y="51.216" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID_2" value="CONN-14915" x="8.372" y="51.216" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="7.102" y="48.803" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="H9" library="SparkFun-Hardware" package="STAND-OFF-TIGHT" value="STAND-OFFTIGHT" x="3.5" y="3.5" smashed="yes">

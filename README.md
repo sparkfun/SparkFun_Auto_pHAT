@@ -5,14 +5,24 @@ SparkFun Auto pHAT for Raspberry Pi (Qwiic)
 
 [*SparkFun Auto pHAT for Raspberry Pi (Qwiic) (ROB-16328)*](https://www.sparkfun.com/products/16328)
 
-The Audo pHAT is a stackable "HAT" for Pi and JetBot that provides robotics control features (DC motor control, servo control, an IMU, etc.)
+The SparkFun Auto pHAT for Raspberry Pi is an all in one robotics package that focuses on quickly adding robot functionality and support to your Raspberry Pi or other single-board computer. The Auto pHAT can drive two small DC motors with or without encoders and up to four servo motors in a straightforward manner via an I<sup>2</sup>C connection. The servo control is based on the [SparkFun servo pHAT](https://www.sparkfun.com/products/15316) and thanks to its I<sup>2</sup>C capabilities, this PWM add-on saves the Raspberry Pi's GPIO pins, allowing you to use them for other purposes. We have also provided a Qwiic connector for easy interfacing with the I<sup>2</sup>C bus using the [Qwiic system](https://www.sparkfun.com/qwiic). Whether you use the Auto pHAT with a Raspberry Pi, NVIDIA, Jetson Nano, Google Coral, or other SBC, it makes for a unique robotics addition for and board with a 2x20 GPIO.
+
+The DC motor control comes from the same 4245 PSOC and 2-channel motor ports system used on the [SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451). This provides 1.2A steady state drive per channel (1.5A peak) and 127 levels of DC drive strength. The SparkFun Auto pHAT also supports up to two motor encoders thanks to the onboard ATTINY84A to provide more precise movement to your creation! 
+
+Additionally, the Auto pHAT has an on-board ICM-20948 9DOF IMU for all your motion sensing needs. This enables your robot to access the 3-Axis Gyroscope with four selectable ranges, 3-Axis Accelerometer, again with four selectable ranges, and 3-axis magnetometer with an FSR of ±4900µT.
+
+Power to the SparkFun Auto pHAT can be supplied through USB-C connector or external power. This will power either the motors only, or power the motors as well as the Raspberry Pi that is connected to the HAT. This USB-C connector can also be used to hook up the Pi via serial port connection to avoid having to use a monitor and keyboard for setting up the Pi. We've even added power protection circuits to the design, to avoid damage to power sources.
 
 
-ATTINY84 FUSE BITS:
+For reference on programming the ATTINY84:
 
-LowFuse 0xE2 (Set fuses to run at 8MHz internal)
+FUSE BITS:
+(Set fuses to run at 8MHz internal)
+(Disable Brown Out Detect)
 
-HighFuse 0xD5 (Set BOD to 2.7V)
+* LowFuse 0xE2 
+* HighFuse 0xDF
+* ExtendedFuse 0xFF
 
 
 Repository Contents

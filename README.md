@@ -1,9 +1,9 @@
-# SparkFun Auto pHAT for Raspberry Pi (Qwiic)
+SparkFun Auto pHAT for Raspberry Pi (Qwiic)
 ========================================
 
 [![SparkFun Auto pHAT for Raspberry Pi (Qwiic))](https://cdn.sparkfun.com//assets/parts/1/5/0/3/5/16328-SparkFun_Auto_pHAT_for_Raspberry_Pi-01b.jpg)](https://www.sparkfun.com/products/16328)
 
-[*SparkFun Auto pHAT for Raspberry Pi (Qwiic) (ROB-163285)*](https://www.sparkfun.com/products/16328)
+[*SparkFun Auto pHAT for Raspberry Pi (Qwiic) (ROB-16328)*](https://www.sparkfun.com/products/16328)
 
 The Audo pHAT is a stackable "HAT" for Pi and JetBot that provides robotics control features (DC motor control, servo control, an IMU, etc.)
 

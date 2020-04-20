@@ -31,6 +31,7 @@ Repository Contents
 * **/Documentation** - Data sheets, additional product information
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Hardware/Production** - Production panel files and gerbers (.brd)
+* **/Firmware** - Firmware for the Dual Encoder Reader IC (ATTiny84) and the Motor Driver IC (4245 PSOC)
 
 Documentation
 --------------
